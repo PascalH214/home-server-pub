@@ -1,0 +1,41 @@
+name: hs
+windows:
+  - root:
+      layout: even-horizontal
+      panes:
+        - clear
+        - yazi
+  - packer:
+      layout: even-horizontal
+      root: packer
+      panes:
+        - nvim .
+        - clear
+  - terraform:
+      layout: even-horizontal
+      root: terraform
+      panes:
+        - nvim .
+        - clear
+  - ansible:
+      layout: even-horizontal
+      root: ansible
+      panes:
+        - nvim .
+        - clear
+  - ssh-critical:
+      layout: even-horizontal
+      panes:
+        - clear && ssh ubuntu@192.168.178.221
+  - ssh-media:
+      layout: even-horizontal
+      panes:
+        - clear && ssh ubuntu@192.168.178.223
+  - ssh-sensible:
+      layout: even-horizontal
+      panes:
+        - clear && ssh ubuntu@192.168.178.222
+  - ssh-test-vm:
+      layout: even-horizontal
+      panes:
+        - clear && ssh ubuntu@192.168.178.230
