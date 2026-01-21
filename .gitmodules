@@ -4,8 +4,8 @@
 
 [submodule "terraform"]
 	path = terraform
-	url = ../home-server-pub-terraform-pub.git
+	url = ../home-server-pub-terraform.git
 
 [submodule "ansible"]
 	path = ansible
-	url = ../home-server-pub-ansible-pub.git
+	url = ../home-server-pub-ansible.git
