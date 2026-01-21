@@ -1,0 +1,8 @@
+{
+  "cSpell.words": [
+    "cloudflared",
+    "truenas",
+    "vaultwarden"
+  ],
+  "ansible.python.interpreterPath": "/usr/sbin/python"
+}
