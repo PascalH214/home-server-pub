@@ -1,0 +1,11 @@
+[submodule "ansible"]
+  path = ansible
+  url = https://github.com/PascalH214/home-server-pub-ansible.git
+
+[submodule "terraform"]
+  path = terraform
+  url = https://github.com/PascalH214/home-server-pub-terraform.git
+
+[submodule "packer"]
+  path = packer
+  url = https://github.com/PascalH214/home-server-pub-packer.git
